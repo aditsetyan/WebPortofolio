@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "./sections/Hero";
+import Home from "./sections/Home";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Skills from "./sections/Skills";
@@ -8,7 +8,7 @@ import Skills from "./sections/Skills";
 function App() {
   return (
     <main className="bg-black text-white font-sans overflow-x-hidden">
-      <Hero />
+      <Home />
       <Skills />
       <Projects />
       <Contact />

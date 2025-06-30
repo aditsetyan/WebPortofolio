@@ -3,22 +3,22 @@ import { motion } from "framer-motion";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 
-export default function Hero() {
+export default function Home() {
   return (
     <ParallaxProvider>
       {/* ✅ Navbar */}
       <nav className="fixed top-0 left-0 w-full flex justify-center items-center py-6 z-50">
         <ul className="flex gap-10 text-white font-medium text-base md:text-lg backdrop-blur-md bg-black/30 px-8 py-2 rounded-full border border-yellow-500">
-          <li><a href="#hero" className="hover:text-yellow-400">Home</a></li>
-          <li><a href="#skills" className="hover:text-yellow-400">Skills</a></li>
-          <li><a href="#projects" className="hover:text-yellow-400">Projects</a></li>
-          <li><a href="#contact" className="hover:text-yellow-400">Contact</a></li>
+          <li><a href="home" className="hover:text-yellow-400">Home</a></li>
+          <li><a href="skills" className="hover:text-yellow-400">Skills</a></li>
+          <li><a href="projects" className="hover:text-yellow-400">Projects</a></li>
+          <li><a href="contact" className="hover:text-yellow-400">Contact</a></li>
         </ul>
       </nav>
 
-      {/* ✅ Hero */}
+      {/* ✅ Home */}
       <section
-        id="hero"
+        id="home"
         className="h-screen flex flex-col items-center justify-center relative overflow-hidden bg-black"
       >
         {/* ✅ BIG Smooth Globe */}
