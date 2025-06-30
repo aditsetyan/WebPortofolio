@@ -5,10 +5,11 @@
   "node": "18.x"
 },
   "private": true,
-  "scripts": {
+"scripts": {
   "dev": "vite",
   "build": "npx vite build",
-  "preview": "vite preview"
+  "preview": "vite preview",
+  "postinstall": "chmod +x node_modules/.bin/vite"
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.6.0",
