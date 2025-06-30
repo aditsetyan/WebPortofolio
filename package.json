@@ -2,7 +2,7 @@
   "name": "portfolio-3-0-cosmos-premium",
   "version": "1.0.0",
   "engines": {
-  "node": "18.x"
+  "node": "20.x"
 },
   "private": true,
 "scripts": {
