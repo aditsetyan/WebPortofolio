@@ -18,7 +18,7 @@ export default function Skills() {
 
   return (
     <section 
-    
+    id="skills"
     className="min-h-[50vh] flex flex-col items-center justify-center px-6 py-20">
       <h2 className="text-5xl md:text-6xl font-bold mb-10">My Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl w-full">
