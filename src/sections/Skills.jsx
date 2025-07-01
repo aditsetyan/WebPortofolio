@@ -17,10 +17,14 @@ export default function Skills() {
   ];
 
   return (
-    <section 
-    id="skills"
-    className="min-h-[50vh] flex flex-col items-center justify-center px-6 py-20">
-      <h2 className="text-5xl md:text-6xl font-bold mb-10">My Skills</h2>
+    <section
+      id="skills"
+      className="min-h-[50vh] flex flex-col items-center justify-center px-6 py-20"
+    >
+      <h2 className="text-5xl md:text-6xl font-bold mb-10 text-yellow-400">
+        My Skills
+      </h2>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl w-full">
         {skills.map((skill) => (
           <div
@@ -32,6 +36,11 @@ export default function Skills() {
           </div>
         ))}
       </div>
+
+      {/* ✅ Quote in English */}
+      <p className="mt-12 text-center italic text-gray-400 max-w-xl">
+        "Skills are the real armor — keep them sharp to secure what matters most."
+      </p>
     </section>
   );
 }
